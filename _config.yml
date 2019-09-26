@@ -65,8 +65,8 @@ conference:
   dates: 
     deadline_tickets: tba
     deadline_cfp: tba
-    workshops: "Spring 2020"
-    conference: "Spring 2020"
+    workshops: "March 2020"
+    conference: "March 2020"
   venue:
     workshopsday:
       address: "Looking for one"
@@ -77,19 +77,20 @@ conference:
       maps_uri: 
   archive:
     a2019:
-      participants: 300
-      presentations: 15
-      workshops: 6
-      hours: 35
-      website_uri: https://2018.bsidesmunich.org
-      recordings_uri: https://www.youtube.com/watch?v=zq2Ge3EQMpE&list=PL8N5HiRDvZ-etExLvF5766VOD0CkZTSZx
+      title: "BSides Munich 2019"
+      participants: 343
+      presentations: 13
+      workshops: 8
+      hours: 38
+      website_uri: https://2019.bsidesmunich.org
+      recordings_uri: https://www.youtube.com/watch?v=u8twBNM7LmQ&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD
       slider:
-      - src: img/slider2018/organizers.jpg
-      - src: img/slider2018/MS-P4080195.jpg
-      - src: img/slider2018/MS-P4090241.jpg
-      - src: img/slider2018/MS-P4090485.jpg
-      - src: img/slider2018/MS-P4090947.jpg
-
+      - src: img/slider2019/IMG_20190325_112110.jpg
+      - src: img/slider2019/IMG_20190329_170605.jpg
+      - src: img/slider2019/P3240090.jpg
+      - src: img/slider2019/P3240167.jpg
+      - src: img/slider2019/P3250641.jpg
+      - src: img/slider2019/P3250925.jpg
 compress_html:
   clippings: all
   comments: all
