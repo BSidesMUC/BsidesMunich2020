@@ -34,7 +34,7 @@ If you are interested in speaking at an infosec conference about a topic that is
 
 The infosec community is full of smart people.
 But, public speaking does not come easy for all of us.  So, we are here to encourage and support those who have doubts or a hard time deciding whether or not to go for it.
-BSidesMunich 2019 will have two different stages: a main stage and a rookie stage
+BSidesMunich 2020 will have two different stages: a main stage and a rookie stage
 On the rookie stage you will have a smaller, supportive audience!
 If you have something you want to talk about, submit it; even if you are not sure it will be a good enough fit for the conference.
 
