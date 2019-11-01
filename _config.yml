@@ -38,7 +38,7 @@ conference:
   newsletter: http://eepurl.com/dNWt2w
   sponsors:
     #show the sponsors in the footer of every page
-    lookingfor: false
+    lookingfor: true
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
@@ -58,15 +58,15 @@ conference:
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2020Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2020Sponsorship-Deutsch.pdf
-    cfw_uri: #
-    cfp_uri: #
+    cfw_uri: https://forms.gle/oACeH7J5QQzhHTKYA
+    cfp_uri: https://forms.gle/8njVYBPsshUXrAHq9
     contickets_uri: #
     contickets_state: "Looking for venue"
   dates: 
     deadline_tickets: tba
-    deadline_cfp: tba
-    workshops: "March 2020"
-    conference: "March 2020"
+    deadline_cfp: 2020-01-08T23:59:59
+    workshops: "Aiming for March 22 2020"
+    conference: "Aiming for March 23 2020"
   venue:
     workshopsday:
       address: "Looking for one"

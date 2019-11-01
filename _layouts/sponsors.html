@@ -4,28 +4,6 @@ layout: default
 
 <!-- Wrapper Start -->
 
-{% if site.conference.sponsors.platinum or site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronze or site.conference.sponsors.community %}
-
-<!-- sponsors Start -->
-<section id="sponsors">
-  <div class="container sponsorlogos">
-
-{% include sponsor_class.html class=site.conference.sponsors.platinum %}
-
-{% include sponsor_class.html class=site.conference.sponsors.gold %}
-
-{% include sponsor_class.html class=site.conference.sponsors.silver %}
-
-{% include sponsor_class.html class=site.conference.sponsors.bronze %}
-
-{% include sponsor_class.html class=site.conference.sponsors.community %}
-
-  </div>
-</section>
-
-{% endif %}
-
-
 {% if site.conference.sponsors.lookingfor %}
 <!-- Call to action Start -->
 <section id="call-to-action">
@@ -53,5 +31,26 @@ layout: default
 
   </div>
 </section>
+{% endif %}
+
+{% if site.conference.sponsors.platinum or site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronze or site.conference.sponsors.community %}
+
+<!-- sponsors Start -->
+<section id="sponsors">
+  <div class="container sponsorlogos">
+
+{% include sponsor_class.html class=site.conference.sponsors.platinum %}
+
+{% include sponsor_class.html class=site.conference.sponsors.gold %}
+
+{% include sponsor_class.html class=site.conference.sponsors.silver %}
+
+{% include sponsor_class.html class=site.conference.sponsors.bronze %}
+
+{% include sponsor_class.html class=site.conference.sponsors.community %}
+
+  </div>
+</section>
+
 {% endif %}
 

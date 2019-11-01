@@ -5,7 +5,8 @@
 {:/}
 
 <!-- Assign Variable "today_date" to the current date -->
-{% assign today_date = now %}
+{% assign today_date = site.time %}
+
 <!-- Assign Variable "pre_date" to the string of the metafield -->
 {% assign deadline_cfp = site.conference.dates.deadline_cfp %}
 
@@ -13,7 +14,6 @@
 <section id="call-to-action">
   <div class="container">
     <div class="row">
-    
       {% if deadline_cfp > today_date %}
         {% if site.conference.links.cfp_uri %}
       <div class="col-md-6">
