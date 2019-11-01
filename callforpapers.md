@@ -50,4 +50,4 @@ Your submission is subject to approval by the program committee of BSides Munich
 All presentation slides will be published on the conference website after the conference. Please make sure that any pictures and other materials in your slides don’t violate any copyrights.
 You are solely liable for copyright violations. You may choose any CC license for your slides, including CC0.
 Unfortunately we can’t cover travel expenses or costs for accommodations.
-
+ 
