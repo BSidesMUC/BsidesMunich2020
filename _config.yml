@@ -64,7 +64,7 @@ conference:
     contickets_state: "Looking for venue"
   dates: 
     deadline_tickets: tba
-    deadline_cfp: 2020-01-08T23:59:59
+    deadline_cfp: 2020-01-08
     workshops: "Tentative March 22 2020"
     conference: "Tentative March 23 2020"
   venue:
