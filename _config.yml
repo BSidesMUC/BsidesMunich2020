@@ -37,6 +37,7 @@ conference:
   twitter: https://twitter.com/bsidesmunich
   newsletter: http://eepurl.com/dNWt2w
   sponsors:
+    contact: sponsors@bsidesmunich.org
     #show the sponsors in the footer of every page
     lookingfor: true
     footer: false #BETA
