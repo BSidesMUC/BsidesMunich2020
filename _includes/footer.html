@@ -83,4 +83,58 @@
   <script type="text/javascript">new IdealImageSlider.Slider('#slider').start();</script>
 {% endif %}
 
+{% if site.conference.venue.conferenceday.gps or site.conference.venue.workshopsday.gps %}
+  <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+  <link href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" rel="stylesheet"/>
+  <script>
+<!--
+// Where you want to render the map.
+var element = document.getElementById('osm-map');
+
+// Height has to be set. You can do this in CSS too.
+element.style = 'height:400px;';
+
+// Create Leaflet map on map element.
+var map = L.map(element);
+var gpsMunich = [48.137, 11.575];
+// Set map's center to target with zoom 14.
+map.setView(gpsMunich, 13);
+
+// Add OSM tile leayer to the Leaflet map.
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+{% if site.conference.venue.conferenceday.gps %}
+// Target's GPS coordinates.
+var target = L.latLng('{{ site.conference.venue.conferenceday.gps.lat }}', '{{ site.conference.venue.conferenceday.gps.long }}');
+
+// Place a marker on the same location.
+L.marker(target).addTo(map)
+{% if site.conference.venue.conferenceday.gps.details %}
+  .bindPopup('{{ site.conference.venue.conferenceday.gps.details }}')
+  .openPopup();
+{% else %}
+;
+{% endif %}
+
+{% endif %}
+
+
+{% if site.conference.venue.workshopsday.gps %}
+// Target's GPS coordinates.
+var target = L.latLng('{{ site.conference.venue.workshopsday.gps.lat }}', '{{ site.conference.venue.workshopsday.gps.long }}');
+// Place a marker on the same location.
+L.marker(target).addTo(map)
+{% if site.conference.venue.workshopsday.gps.details %}
+  .bindPopup('{{ site.conference.venue.workshopsday.gps.details }}')
+  .openPopup();
+{% else %}
+;
+{% endif %}
+
+{% endif %}
+//-->
+  </script>
+{% endif %}
 
