@@ -70,9 +70,12 @@ Controller for the purposes of the General Data Protection Regulation (GDPR), ot
 {{ site.imprint.name }}<br>
 {% if site.imprint.addressco %}{{ site.imprint.addressco }}<br>{% endif %}
 {{ site.imprint.address }}<br>
-Germany<br>{% if site.imprint.phone %}{{ site.imprint.phone }}<br>{% endif %}
-Email: dataprivacy [at] bsidesmunich [dot] org<br>
-Website: www.bsidesmunich.org<br>
+{% if site.imprint.chair %}Chair: {{ site.imprint.chair }}<br>{% endif %}
+{% if site.imprint.vicechair %}Vize-Chair: {{ site.imprint.vicechair }}<br>{% endif %}
+
+{% if site.imprint.phone %}Phone: {{ site.imprint.phone }}<br>{% endif %}
+{% if site.imprint.email %}Email: {{ site.imprint.email }}<br>{% endif %}
+{% if site.imprint.email %}Website: {{ site.imprint.email }}<br>{% endif %}
 
 ## Collection of general data and information
 
@@ -80,19 +83,16 @@ The website of BSides Munich collects a series of general data and information w
 
 When using these general data and information, BSides Munich does not draw any conclusions about the data subject. Rather, this information is needed to (1) deliver the content of our website correctly, (2) optimize the content of our website as well as its advertisement, (3) ensure the long-term viability of our information technology systems and website technology, and (4) provide law enforcement authorities with the information necessary for criminal prosecution in case of a cyber-attack. Therefore, BSides Munich analyzes anonymously collected data and information statistically, with the aim of increasing the data protection and data security of our enterprise, and to ensure an optimal level of protection for the personal data we process. The anonymous data of the server log files are stored separately from all personal data provided by a data subject.<a id="evbr"></a>
 
-## Use of EventBrite
-**Ticket registration via EventBrite**
+## Use of Pretix
+**Ticket registration via Pretix**
 
-We use EventBrite to manage ticket registrations for our annual security conference. EventBrite is a service provided by 
-We use MailChimp to send our newsletter to our subscribers. MailChimp is a service provided by Eventbrite, Inc., Delaware, 155 5th Street, Floor 7, San Francisco, CA 94103, USA.
+We use pretix to manage ticket registrations for our annual security conference. Pretix is a service provided by Raphael Michel rami.io Softwareentwicklung:  Markgräfler Straße 16, 69126 Heidelberg
 
-The data stored when the data subject registered for the ticket is dependant on the submited form and will be sent to a server operated by The Eventbrite, Inc. in the United States and stored there in accordance with the EU-US Privacy Shield.
+The data stored when the data subject registered for the ticket is dependant on the submited form and will be sent to a server operated by pretix and stored there in accordance with a contract of processing data on behalf of MUC:SEC e.V. .
 
-Further information about the data protection offered by EventBrite can be found at: <a href="https://www.eventbrite.com/support/articles/en_US/Troubleshooting/eventbrite-eu-data-protection">www.eventbrite.com</a>
+Further information about the data protection offered by pretix can be found at: https://pretix.eu/about/en/privacy
 
-Further information about the EU-US Privacy Shield can be found at: <a href="http://ec.europa.eu/justice/data-protection/international-transfers/eu-us-privacy-shield/index_en.htm">ec.europa.eu</a>
-
-The data subject may cancel its registration and revoke its consent to the storage of this data at any time with future effect. For instructions to take this step, please refer to EventBrites data privacy policy above.<a id="mc"></a>
+The data subject may cancel its registration and revoke its consent to the storage of this data at any time with future effect (support@pretix.eu). For instructions to take this step, please refer to pretix data privacy policy above.
 
 ## Use of MailChimp
 
