@@ -64,10 +64,10 @@ conference:
     sponsorpackage_de_uri: /files/BSidesMunich2020Sponsorship-Deutsch.pdf
     cfw_uri: https://forms.gle/oACeH7J5QQzhHTKYA
     cfp_uri: https://forms.gle/8njVYBPsshUXrAHq9
-    contickets_uri: #
-    contickets_state: "Looking for venue"
+    contickets_uri: https://pretix.eu/bsidesmunich/2020/
+    contickets_state: "Confirmed Date and Location"
   dates: 
-    deadline_tickets: tba
+    deadline_tickets: 2020-02-18T20:00:00
     deadline_cfp: 2020-02-12T23:59:59
     workshops: "April 26, 2020"
     conference: "April 27, 2020"

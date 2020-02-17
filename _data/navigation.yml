@@ -1,9 +1,10 @@
 - title: Home
   url: /
-- title: Call for Papers
-  url: /callforpapers/
+- title: Registration
+  url: /registration
 - title: Sponsors
   url: /sponsors
+- title: Call for Papers
+  url: /callforpapers/
 - title: Code of Conduct
   url: /codeofconduct
-
