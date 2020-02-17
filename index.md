@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: We are looking forward to your support for BSidesMunich 2020!
+title: BSidesMunich 2020! Happening soon.
 
 ideal_image_slider: true
 ---
