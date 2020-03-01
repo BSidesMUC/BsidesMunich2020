@@ -3,6 +3,7 @@ layout: textpage
 title: BSidesMunich 2020! Happening soon.
 
 ideal_image_slider: true
+show_map: true
 ---
 
 BSidesMunich is the premiere, independently organized computer security event in the Munich, Germany area, bringing together both local and internationally renowned experts.

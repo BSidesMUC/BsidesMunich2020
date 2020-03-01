@@ -68,8 +68,8 @@ a:active {
 }
 .sponsorlogos .sponsor-community img {
   margin: 30px 20px;
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 150px;
+  max-width: 150px;
 }
 @media only screen 
   and (max-width: 767px)

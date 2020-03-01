@@ -83,7 +83,8 @@
   <script type="text/javascript">new IdealImageSlider.Slider('#slider').start();</script>
 {% endif %}
 
-{% if site.conference.venue.conferenceday.gps or site.conference.venue.workshopsday.gps %}
+{% if page.show_map %}
+  {% if site.conference.venue.conferenceday.gps or site.conference.venue.workshopsday.gps %}
   <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
   <link href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" rel="stylesheet"/>
   <script>
@@ -116,6 +117,8 @@ L.marker(target).addTo(map)
   .openPopup();
 {% else %}
 ;
+{% endif %}
+
 {% endif %}
 
 {% endif %}

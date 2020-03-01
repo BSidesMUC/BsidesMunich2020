@@ -49,10 +49,20 @@ conference:
     platinum:
       
     gold:
+    - name: CYRES Consulting Services GmbH
+      logo: /img/sponsors/Cyres_Logo_4C.png
+      uri: https://www.cyres-consulting.com/
       
     silver:
+    - name: it.sec GmbH
+      logo: /img/sponsors/itsec_400x110px.jpg
+      uri: https://www.it-sec.de/
       
     bronze:
+    - name: MOGWAI LABS
+      logo: /img/sponsors/mogwailabs_300x61px.pdf.png
+      uri:  https://mogwailabs.de
+
 
     community:
     - name: Elbsides
