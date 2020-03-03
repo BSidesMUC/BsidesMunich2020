@@ -57,8 +57,14 @@ conference:
     - name: it.sec GmbH
       logo: /img/sponsors/itsec_400x110px.jpg
       uri: https://www.it-sec.de/
-      
+    - name: NSIDE ATTACK LOGIC GmbH
+      logo: /img/sponsors/NSIDE.png
+      uri: https://www.nsideattacklogic.de/
+
     bronze:
+    - name: Kemetmüller
+      logo: /img/sponsors/xn--kemetmller-feb.png
+      uri: https://xn--kemetmller-feb.com
     - name: MOGWAI LABS
       logo: /img/sponsors/mogwailabs_300x61px.pdf.png
       uri:  https://mogwailabs.de
