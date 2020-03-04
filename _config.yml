@@ -68,6 +68,9 @@ conference:
     - name: MOGWAI LABS
       logo: /img/sponsors/mogwailabs_600x121px.pdf.png
       uri:  https://mogwailabs.de
+    - name: SCHUTZWERK GmbH
+      logo: /img/sponsors/Schutzwerk_600x.png
+      uri:  http://www.schutzwerk.com/
 
 
     community:
