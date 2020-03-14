@@ -39,10 +39,18 @@ conference:
   email: organizers@bsidesmunich.org
   twitter: https://twitter.com/bsidesmunich
   newsletter: http://eepurl.com/dNWt2w
+  notice: "In this highly dynamic situation we took the tough decision to cancel the BSides Munich 2020 conference and workshops. Our goal is to provide a forum for communication and cooperation. In the current situation this would contradict public health recommendations. We would like to thank the community, our sponsors and partners for their great support and understanding in these difficult times. 
+
+
+We are looking forward to your participation for an exciting BSides Munich 2021.
+
+
+Your organizing team"
+
   sponsors:
-    contact: sponsors@bsidesmunich.org
+    contact: sponsors (at) bsidesmunich (dot) org
     #show the sponsors in the footer of every page
-    lookingfor: true
+    lookingfor: false
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
@@ -57,6 +65,9 @@ conference:
     - name: it.sec GmbH
       logo: /img/sponsors/itsec_400x110px.jpg
       uri: https://www.it-sec.de/
+    - name: MOGWAI LABS
+      logo: /img/sponsors/mogwailabs_600x121px.pdf.png
+      uri:  https://mogwailabs.de
     - name: NSIDE ATTACK LOGIC GmbH
       logo: /img/sponsors/NSIDE.png
       uri: https://www.nsideattacklogic.de/
@@ -65,9 +76,6 @@ conference:
     - name: Kemetmüller
       logo: /img/sponsors/xn--kemetmller-feb.png
       uri: https://xn--kemetmller-feb.com
-    - name: MOGWAI LABS
-      logo: /img/sponsors/mogwailabs_600x121px.pdf.png
-      uri:  https://mogwailabs.de
     - name: SCHUTZWERK GmbH
       logo: /img/sponsors/Schutzwerk_600x.png
       uri:  http://www.schutzwerk.com/
@@ -83,28 +91,24 @@ conference:
     sponsorpackage_de_uri: /files/BSidesMunich2020Sponsorship-Deutsch.pdf
     cfw_uri: https://forms.gle/oACeH7J5QQzhHTKYA
     cfp_uri: https://forms.gle/8njVYBPsshUXrAHq9
-    contickets_uri: https://pretix.eu/bsidesmunich/2020/
-    contickets_state: "Confirmed Date and Location"
+    contickets_uri: 
+    contickets_state: 
+      
   dates: 
-    deadline_tickets: 2020-02-18T20:00:00
-    deadline_cfp: 2020-02-12T23:59:59
-    workshops: "April 26, 2020"
-    conference: "April 27, 2020"
+    deadline_tickets: 
+    deadline_cfp: 
+    workshops: 
+    conference: 
+
   venue:
     workshopsday:
-      address: "CYRES Consulting Services GmbH, Mies-van-der-Rohe-Straße 6, 80807 München"
+      address: 
       details: ""
       gps: 
-        lat: 48.176
-        long: 11.592
-        details: "Workshops"
     conferenceday:
-      address: "Hilton Munich Park, Am Tucherpark 7, München"
+      address: 
       details: ""
       gps:
-        lat: 48.1527802
-        long: 11.5987529
-        details: "Conference"
   archive:
     a2019:
       title: "BSides Munich 2019"

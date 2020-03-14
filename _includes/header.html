@@ -26,21 +26,6 @@
   </div>
 </header><!-- header close -->
 
-<!-- Slider Start
-<section id="slider">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-2">
-        <div class="block">
-          <h1 class="animated fadeInUp">{{ site.title }}</h1>
-          <p class="animated fadeInUp"></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
--->
-
 <!-- Slider Start -->
 <section id="global-header">
     <div class="container">
@@ -64,6 +49,13 @@
       <div class="col-md-12">
         <div class="block">
           <h1>{{ page.title }}</h1>
+
+          {% if site.conference.notice %}
+          <div class="alert alert-warning" role="alert" style="text-align: left;">
+            {{ site.conference.notice | markdownify }}
+          </div>
+          {% endif %}
+          
         </div>
       </div>
     </div>

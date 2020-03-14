@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSidesMunich 2020! Happening soon.
+title: BSidesMunich 2020 is cancelled
 
 ideal_image_slider: true
 show_map: true
