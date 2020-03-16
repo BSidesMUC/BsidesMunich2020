@@ -54,37 +54,15 @@ Your organizing team"
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
-    platinum:
-      
-    gold:
-    - name: CYRES Consulting Services GmbH
-      logo: /img/sponsors/Cyres_Logo_4C.png
-      uri: https://www.cyres-consulting.com/
-      
-    silver:
-    - name: it.sec GmbH
-      logo: /img/sponsors/itsec_400x110px.jpg
-      uri: https://www.it-sec.de/
-    - name: MOGWAI LABS
-      logo: /img/sponsors/mogwailabs_600x121px.pdf.png
-      uri:  https://mogwailabs.de
-    - name: NSIDE ATTACK LOGIC GmbH
-      logo: /img/sponsors/NSIDE.png
-      uri: https://www.nsideattacklogic.de/
-
-    bronze:
-    - name: Kemetmüller
-      logo: /img/sponsors/xn--kemetmller-feb.png
-      uri: https://xn--kemetmller-feb.com
-    - name: SCHUTZWERK GmbH
-      logo: /img/sponsors/Schutzwerk_600x.png
-      uri:  http://www.schutzwerk.com/
-
 
     community:
     - name: Elbsides
       logo: /img/sponsors/elbsides.png
-      uri: https://elbsides.de/
+      uri: https://elbsides.de
+
+    - name: BSides Stuttgart
+      logo: /img/sponsors/BSidesStuttgart.png
+      uri: https://www.bsidesstuttgart.org
 
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2020Sponsorship-English.pdf
