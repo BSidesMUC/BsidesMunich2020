@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSidesMunich 2020 is cancelled
+title: BSidesMunich 2020 is going Virtual - BSMaaS:2020.08.23
 
 ideal_image_slider: true
 show_map: true

@@ -15,12 +15,13 @@ layout: default
       </div><!-- .col-md-12 close -->
     </div>
 
+{% if site.workshops.size > 0 %}
     <div class="row">
       <div class="col-md-12">
         <div class="block">
           <div class="section-title agenda-title">
             <h2>Workshops</h2>
-            <p class="lead">2019-03-24</p>
+            <p class="lead">{{ site.conference.dates.workshops }}</p>
             <p>{{ site.conference.venue.workshopsday.address }}</p>
           </div>
           {% if site.conference.venue.workshopsday.details %}
@@ -35,15 +36,15 @@ layout: default
     <div class="row">
        
 {% for track in (1..4) %}
-      <div class="p-3 col-lg-3 col-md-3">
+      <div class="p-12 col-lg-12 col-md-4">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
             <h2>Track {{ track }}</h2>
           </div>
           <ul class="list-group list-group-flush">
 
-{% assign sorted = site.workshops | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
-{% for talk in sorted %}
+{% assign talks = site.workshops | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
+{% for talk in talks %}
 {% assign start = talk.timeslot.start | date: '%H:%M' %}
 {% assign end = talk.timeslot.end | date: '%H:%M' %}
 
@@ -69,6 +70,8 @@ layout: default
         </div>
       </div> 
 {% endfor %}  
+    </div> 
+{% endif %}
 
     
     <div class="row">
@@ -85,7 +88,7 @@ layout: default
         <div class="block">
           <div class="section-title agenda-title">
             <h2>Talks</h2>
-            <p class="lead">2019-03-25</p>
+            <p class="lead">{{ site.conference.dates.conference }}</p>
             <p>{{ site.conference.venue.conferenceday.address }}</p>
           </div>
         </div>
@@ -93,15 +96,15 @@ layout: default
     </div>
 
     <div class="row">
-      <div class="p-2 col-lg-2"></div>
+      <div class="p-3 col-lg-3"></div>
       
-{% for track in (1..2) %}      
-      <div class="p-4 col-lg-4 col-md-6">
+{% for track in (1..1) %}      
+      <div class="p-6 col-lg-6 col-md-6">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
-          {% if track == 1 %}
+          {% if track == 42 %}
             <h2>10X Track</h2>
-          {% else if track == 2 %}
+          {% elsif track == 123 %}
             <h2>Moonshot Track </h2>
           {% else %}
             <h2>Track {{ track }}</h2>

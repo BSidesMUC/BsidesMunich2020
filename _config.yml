@@ -39,13 +39,8 @@ conference:
   email: organizers@bsidesmunich.org
   twitter: https://twitter.com/bsidesmunich
   newsletter: http://eepurl.com/dNWt2w
-  notice: "In this highly dynamic situation we took the tough decision to cancel the BSides Munich 2020 conference and workshops. Our goal is to provide a forum for communication and cooperation. In the current situation this would contradict public health recommendations. We would like to thank the community, our sponsors and partners for their great support and understanding in these difficult times. 
-
-
-We are looking forward to your participation for an exciting BSides Munich 2021.
-
-
-Your organizing team"
+  notice: 
+    - "BSides Munich 2020 will be held as a virtual event. Please take a look a the <a href=\"agenda\">agenda</a> for details."
 
   sponsors:
     contact: sponsors (at) bsidesmunich (dot) org
@@ -76,7 +71,7 @@ Your organizing team"
     deadline_tickets: 
     deadline_cfp: 
     workshops: 
-    conference: 
+    conference: 2020-08-23
 
   venue:
     workshopsday:

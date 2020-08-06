@@ -1,10 +1,8 @@
 - title: Home
   url: /
-- title: Registration
-  url: /registration/
+- title: Agenda
+  url: /agenda/
 - title: Sponsors
   url: /sponsors/
-- title: Call for Papers
-  url: /callforpapers/
 - title: Code of Conduct
   url: /codeofconduct/
