@@ -1,7 +1,7 @@
 ---
 layout: talk
 title: "Supply chain Attacks: The rise of the Third Party Poopers"
-details: false
+details: true
 track: 1
 accepted: true
 length: 45

@@ -4,7 +4,7 @@ title: "OWASP API Security Top 10 – How APIs are hacked"
 details: true
 track: 1
 accepted: true
-length: 60
+length: 45
 timeslot:
   start: 2000-01-01 13:15:00
   end: 2000-01-01 14:00:00

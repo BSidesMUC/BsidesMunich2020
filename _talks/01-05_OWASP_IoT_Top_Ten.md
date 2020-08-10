@@ -1,10 +1,10 @@
 ---
 layout: talk
 title: "How to shield and IoT product from the OWASP IoT top 10"
-details: false
+details: true
 track: 1
 accepted: true
-length: 60
+length: 45
 timeslot:
   start: 2000-01-01 14:00:00
   end: 2000-01-01 14:45:00
