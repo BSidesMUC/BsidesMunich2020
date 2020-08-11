@@ -1,9 +1,9 @@
 ---
 layout: talk
 title: "Hacking a Smart Coffee Machine"
-details: false
+details: true
 track: 1
-accepted: false
+accepted: true
 length: 45
 timeslot:
   start: 2000-01-01 12:30:00
