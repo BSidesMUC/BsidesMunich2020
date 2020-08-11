@@ -4,7 +4,7 @@ title: "Pentesting Cloud Sandboxes in the wild"
 details: true
 track: 1
 accepted: true
-length: 45
+length: 20~30
 timeslot:
   start: 2000-01-01 11:00:00
   end: 2000-01-01 11:45:00
@@ -21,7 +21,7 @@ recording_uri:
 slides_uri: 
 ---
 
-Building on last year’s explanation of container workings under the hood ([Fucking Containers - how do they work?](https://2019.bsidesmunich.org/talks/01-03_Fucking-Containers/)), we explain several techniques for breaking out of misconfigured containers/container hosts.
+Building on last year’s explanation of container workings under the hood ([F***ing Containers - how do they work?](https://2019.bsidesmunich.org/talks/01-03_Fucking-Containers/)), we explain several techniques for breaking out of misconfigured containers/container hosts.
 We will discuss the most common misconfigurations (such as extensive container privileges, exposed network services, mounted sockets, internal cluster privileges) and how to test for them.
 For each discussed attack vector, we will show how it can be automated (and integrated into build pipelines) using a tool of choice.
 Finally, a comparison of the well known container execution platforms (AWS, Azure, fly.io, GCP, Heroku) will be presented.
@@ -29,7 +29,7 @@ Finally, a comparison of the well known container execution platforms (AWS, Azur
 
 ### Outline
 
- - Short Container Re-Cap (make sure to be familiar with https://2019.bsidesmunich.org/talks/01-03_Fucking-Containers/)
+ - Short Container Re-Cap (make sure to be familiar with [F***ing Containers - how do they work?](https://2019.bsidesmunich.org/talks/01-03_Fucking-Containers/))
  - Attack Vectors
    - Container Privileges
    - Network Services (Generic, Cloud, Cluster)
