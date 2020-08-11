@@ -13,7 +13,8 @@ layout: default
 
     {% include header.html %}
 
-  {% if site.conference.notice and page.layout != 'agenda' %}
+  {% if site.conference.notice %}
+    {% if page.layout != 'agenda' and page.layout != 'talk' and page.layout != 'workshop' %}
     <section id="notice">
     {% for notice in site.conference.notice %}
       <div class="row">
@@ -27,6 +28,7 @@ layout: default
       </div>
     {% endfor %}
     </section>
+    {% endif %}
   {% endif %}
 
     {{ content }}
