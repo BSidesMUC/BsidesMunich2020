@@ -61,6 +61,22 @@ In this highly dynamic situation we took the tough decision to cancel the BSides
       logo: /img/sponsors/BSidesStuttgart.png
       uri: https://www.bsidesstuttgart.org
 
+    - name: MOGWAI LABS
+      logo: /img/sponsors/mogwailabs_600x121px.pdf.png
+      uri:  https://mogwailabs.de
+
+    - name: SCHUTZWERK GmbH
+      logo: /img/sponsors/Schutzwerk_600x.png
+      uri:  https://www.schutzwerk.com/
+
+    - name: Airbus CyberSecurity
+      logo: /img/sponsors/AIRBUS_CS_Logo_Blue_Capitals_Centred.png
+      uri:  https://www.airbus-cyber-security.com
+
+    - name: Google
+      logo: /img/sponsors/Google_FullColor_hdpi_270x89px.png
+      uri:  https://www.google.com
+
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2020Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2020Sponsorship-Deutsch.pdf

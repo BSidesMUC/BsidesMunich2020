@@ -235,3 +235,20 @@
 .sponsor-list {
   text-align: center;
 }
+
+.sponsor {
+  height: 200px;
+  display: table; 
+  float: left;      
+}
+
+.sponsor .image-container {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.sponsor .image-container img {
+  max-width: 90%; 
+}
+

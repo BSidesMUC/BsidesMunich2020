@@ -24,18 +24,21 @@
         <h2 id="{{ classname }}">{{ classtext }}</h2>
       </div>
 
-      <p class="sponsor-list {{ classname }}">
-      <!-- <pre>{{ include.class }}</pre> //-->
+      <div class="sponsor-list {{ classname }}">
       {% for sponsor in include.class %}
-        {% if sponsor.uri %}
-        <a href="{{ sponsor.uri }}">
-        <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
-        </a>    
-        {% else %}
-        <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
-        {% endif %}
+        <div class="col-md-3 sponsor">
+          <div class="image-container">
+          {% if sponsor.uri %}
+            <a href="{{ sponsor.uri }}">
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+            </a>
+          {% else %}
+            <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+          {% endif %}
+          </div>
+        </div>
       {% endfor %}
-      </p>
+      </div>
     </div>
   </div>
 </div>
