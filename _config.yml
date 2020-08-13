@@ -77,6 +77,23 @@ In this highly dynamic situation we took the tough decision to cancel the BSides
       logo: /img/sponsors/Google_FullColor_hdpi_270x89px.png
       uri:  https://www.google.com
 
+    - name: Fujitsu Technology Solutions GmbH
+      logo: /img/sponsors/Fujitsu_RS5604_31669.jpg
+      uri:  https://www.fujitsu.com/global/themes/security/
+
+    - name: NSIDE ATTACK LOGIC GmbH
+      logo: /img/sponsors/NSIDE.png
+      uri:  https://www.nsideattacklogic.de/
+
+    - name: SIEMENS
+      logo: /img/sponsors/siemens.png
+      uri: https://siemens.com/cert/
+
+    - name: Maltego Technologies GmbH
+      logo: /img/sponsors/Maltego-Logo-Horizontal-Black.svg
+      uri: https://www.maltego.com/
+      
+
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2020Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2020Sponsorship-Deutsch.pdf
