@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "How to shield and IoT product from the OWASP IoT top 10"
+title: "How to shield an IoT product from the OWASP IoT top 10"
 details: true
 track: 1
 accepted: true
@@ -30,7 +30,6 @@ I’ve read this line so many times on blogs and on twitter, that I think it is 
 So, how do we make an IoT product secure? Or how do we design a secure product from the start?
 The answer to the last question is easy, but doing it for an existing product, that is a big challenge.
 It probably can't be done in one release, but you have to start somewhere.
-
 
 This talk with walk you through IoT, its components, some principles to design a secure product, the OWASP IoT Top 10 and how to address them, setting up security requirements and controls, and last but not least analyze two popular IoT use cases: a GPS tracker and smart cities irrigation system.
 These should lay a fertile ground for further discussion.
