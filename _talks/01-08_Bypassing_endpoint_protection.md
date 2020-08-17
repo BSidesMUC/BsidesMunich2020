@@ -1,9 +1,9 @@
 ---
 layout: talk
 title: "The Art of bypassing endpoint protections for red teaming engagements"
-details: false
+details: true
 track: 1
-accepted: false
+accepted: true
 length: 45
 timeslot:
   start: 2000-01-01 16:15:00
