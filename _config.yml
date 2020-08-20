@@ -64,6 +64,10 @@ In this highly dynamic situation we took the tough decision to cancel the BSides
     - name: Airbus CyberSecurity
       logo: /img/sponsors/AIRBUS_CS_Logo_Blue_Capitals_Centred.png
       uri:  https://www.airbus-cyber-security.com
+      
+    - name: CYOSS
+      logo: /img/sponsors/CYOSS.png
+      uri: https://cyoss.com/
 
     - name: Fujitsu Technology Solutions GmbH
       logo: /img/sponsors/Fujitsu_RS5604_31669.jpg
