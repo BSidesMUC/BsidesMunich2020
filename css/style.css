@@ -234,11 +234,12 @@
 }
 .sponsor-list {
   text-align: center;
+  display: table;
 }
 
 .sponsor {
   height: 200px;
-  display: table; 
+  display: table-cell;
   float: left;      
 }
 
