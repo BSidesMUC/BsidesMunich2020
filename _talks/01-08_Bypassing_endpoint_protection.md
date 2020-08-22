@@ -13,6 +13,10 @@ speakers:
     handle: jameel_nabbo
     photo: 
     bio: "Jameel Nabbo is the Founder of Bufferoverflows.net. Jameel has more than a decade of experience researching and working in the computer security space. He is a recognized industry speaker, having spoken at international security conferences. along with his passion for red teaming and source code analysis, Jameel works at Capgemini as a principal offensive security consultant."
+  - name: Eslam Reda
+    handle: 
+    photo: 
+    bio: "Eslam Reda is an offensive security consultant with over 7 years in the security industry breaking things and doing red teaming on a daily basis. he's working currently as offensive security consultant in Capgemini red team."
 recording_uri: 
 slides_uri: 
 ---
