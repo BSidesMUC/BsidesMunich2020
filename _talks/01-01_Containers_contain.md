@@ -29,12 +29,13 @@ Finally, a comparison of the well known container execution platforms (AWS, Azur
 
 ### Outline
 
- - Short Container Re-Cap (make sure to be familiar with [F***ing Containers - how do they work?](https://2019.bsidesmunich.org/talks/01-03_Fucking-Containers/))
- - Attack Vectors
-   - Container Privileges
-   - Network Services (Generic, Cloud, Cluster)
-   - Cluster Privileges
-   - Sockets
- - Testing how-to with botb and amicontained
- - Cloud Platform comparison 
- - Conclusions
+  - Short Container Re-Cap (make sure to be familiar with [F***ing Containers - how do they work?](https://2019.bsidesmunich.org/talks/01-03_Fucking-Containers/))
+  - Attack Vectors
+    - Container Privileges
+    - Network Services (Generic, Cloud, Cluster)
+    - Cluster Privileges
+    - Sockets
+  - Cloud Platform comparison
+  - Testing how-to with [botb](https://github.com/brompwnie/botb) and [amicontained](https://github.com/genuinetools/amicontained/)
+  - Mitigations
+  - Conclusions
