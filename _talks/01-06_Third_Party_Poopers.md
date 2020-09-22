@@ -17,7 +17,7 @@ At Panorays, Elad and his team are responsible for mimicking hacker behavior by 
 Elad is a recognized speaker, having presented at various hacking conferences such BlueHat IL, ReCon and Defcon meetups. 
 Prior to Panorays, Elad was the Mobile Security Research Team Leader at AVG technologies.
 Elad also lectures at Afeka Academic College of Engineering and helps to organize local hacking competitions."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=yVI3TzKZat8
 slides_uri: 
 ---
 

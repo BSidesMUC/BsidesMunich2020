@@ -17,8 +17,8 @@ speakers:
 She is a frequent speaker at Virus Bulletin, Insomni'hack and Hack.lu. She has also spoken at BlackHat Europe, SSTIC, TROOPERS, DefCamp, BlackAlps, Hacktivity and yet other conferences.
 
 She is the lead organizer of Ph0wn CTF, a Capture The Flag dedicated to smart devices. "
-recording_uri: 
-slides_uri: 
+recording_uri: https://www.youtube.com/watch?v=EvRd3Z41Ff0
+slides_uri: https://fortiguard.com/events/3595/bsides-munich-2020-hacking-your-smart-coffee-machine
 ---
 
 This hack has a story: I organize a Capture The Flag dedicated to IoT, called Ph0wn (https://ph0wn.org).

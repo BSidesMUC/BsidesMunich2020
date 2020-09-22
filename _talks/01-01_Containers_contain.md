@@ -17,8 +17,8 @@ speakers:
     handle: NodyTweet
     photo: 
     bio: "Jan Harrie is freelancing as a Security Consultant. Currently, he spends the majority of his research time on containers and their run-time environments. If he is not digging into containers, the daily business consists of securing container environments, security risk assessments, and conceptional topics. In the past he worked as penetration tester, consultant and spend a while in academia."
-recording_uri: 
-slides_uri: 
+recording_uri: https://www.youtube.com/watch?v=4g0Q3YJ7JY4
+slides_uri: /files/slides/01-01_Pentesting_Cloud_Sandboxes_in_the_wild.pdf
 ---
 
 Building on last year’s explanation of container workings under the hood ([F***ing Containers - how do they work?](https://2019.bsidesmunich.org/talks/01-03_Fucking-Containers/)), we explain several techniques for breaking out of misconfigured containers/container hosts.

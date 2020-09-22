@@ -17,8 +17,8 @@ speakers:
     handle: 
     photo: 
     bio: "Eslam Reda is an offensive security consultant with over 7 years in the security industry breaking things and doing red teaming on a daily basis. he's working currently as offensive security consultant in Capgemini red team."
-recording_uri: 
-slides_uri: 
+recording_uri: https://www.youtube.com/watch?v=IFTrd97yLKI
+slides_uri: /files/slides/01-08_Bypassing_endpoint_protections.pptx
 ---
 
 In many red teaming engagements, the red team faces an important issue that can make their life difficult in terms of lateral movements or bypassing antiviruses since we're not in 2010. most of the organizations install antiviruses by design into their employee's computers as well as servers.

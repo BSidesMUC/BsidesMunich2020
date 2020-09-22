@@ -14,8 +14,8 @@ speakers:
     photo: 
     bio: "Andreas Falk has been working in enterprise application development projects for more than twenty years. Currently, he is working as a managing consultant for [Novatec Consulting](https://www.novatec-gmbh.de) located in Germany.
 In various projects, he has since been around as an architect, coach, and developer. His focus is on the agile development of cloud-native enterprise Java applications using the complete Spring platform. As a member of the [Open Web Application Security Project (OWASP)](https://www.owasp.org), he likes to have a closer look at all aspects of application security as well. Andreas is also a frequent speaker at conferences like Spring I/O, CloudFoundry Summit, and Devoxx."
-recording_uri: 
-slides_uri: 
+recording_uri: https://www.youtube.com/watch?v=1wXoNUKZ6G4
+slides_uri: /files/slides/01-07_andreas_falk_secure_kubernetes_dev_nightmare_slides.pdf
 ---
 
 With the rise of Kubernetes, the Java developer has arrived in the SecDevOps age as well.

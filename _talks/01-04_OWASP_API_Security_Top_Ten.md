@@ -13,8 +13,8 @@ speakers:
     handle: 
     photo: 
     bio: "Frank Ully has studied Technical Communication at the Karlsruhe University of Applied Sciences and graduated with a diploma degree (now equivalent to a master in Communication and Media Management). While still a student, he set up the Corporate Communications and Documentation department of a Berlin-based software manufacturer and headed it for several years. Later, Frank was responsible for internal user systems and IT security. He has studied Security Management with a specialization in IT security at the Brandenburg University of Applied Sciences and was certified as an Offensive Security Certified Expert (OSCE) and Offensive Security Certified Professional (OSCP). Frank also holds the GIAC Reverse Engineering Malware (GREM) and GIAC Certified Forensic Analyst (GCFA) certifications and is a certified OSSTMM Professional Security Tester (OPST). At the end of his master studies, he began working as a penetration tester and security consultant at Oneconsult Germany in November 2017 and became a senior penetration tester and security consultant in April 2018."
-recording_uri: 
-slides_uri: 
+recording_uri: https://www.youtube.com/watch?v=1G3CEDubm8k
+slides_uri: /files/slides/01-04_Frank_Ully_OWASP_API_Security_Top_10.pdf
 ---
 
 Security is an important issue that is still often neglected when designing and developing application programming interfaces (APIs). 

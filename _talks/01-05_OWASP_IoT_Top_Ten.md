@@ -21,8 +21,8 @@ Pablo’s career has taken place mostly doing security in a variety of industrie
 Pablo has founded multiple companies in different continents and enjoys hacking, IoT, teaching, working with new technologies, startups, collaborating with Open Source projects, learning new things and being challenged.
 
 In the last couple of years, he has been working mainly IoT security, testing dozens of devices, working with multiple platform providers to secure their solutions, and teaching an IoT Security Bootcamps."
-recording_uri: 
-slides_uri: 
+recording_uri: https://www.youtube.com/watch?v=gOTqU7153Cw
+slides_uri: /files/slides/01-05_Secure-IoT_with_OWASP_Top_10-v0.4.2-bsides-munich-long.pdf
 ---
 
 The “S” in IoT stands for security.

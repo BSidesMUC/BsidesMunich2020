@@ -13,8 +13,8 @@ speakers:
     handle: CaptnBanana
     photo: 
     bio: "Servus! My name is Philipp and I do red teaming and penetration testing. My main interests are in the field of reverse engineering and exploit development. I'm blogging regularly about those topics at https://bananamafia.dev."
-recording_uri: 
-slides_uri: 
+recording_uri: https://www.youtube.com/watch?v=TeiD_ktiMp0
+slides_uri: /files/slides/01-02_rush_b_blyat.pdf
 ---
 
 Over the past year I’ve noticed that many people are particularly interested in the field of multiplayer game hacking, since these kinds of blog posts get quite a few clicks on my blog.
